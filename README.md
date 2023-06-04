@@ -74,3 +74,7 @@ next create .gitignore file and write
 node_modules
 .env
 ```
+
+# Step 6 :
+
+Next, Create a GitHub repository and Create a branch-to-branch push your work
