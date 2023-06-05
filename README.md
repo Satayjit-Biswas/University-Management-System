@@ -78,3 +78,7 @@ node_modules
 # Step 6 :
 
 Next, Create a GitHub repository and Create a branch-to-branch push your work
+
+# Step 7 :
+
+Next Create file server.ts and app.ts in src folder
