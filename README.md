@@ -93,7 +93,7 @@ Next, Create a GitHub repository and Create a branch-to-branch push your work
 
 Next Create file server.ts and app.ts in src folder And create .env file in root folder
 
-$\colorbox{green}{root/.env}$
+`root/.env`
 
 ```
 PORT=5000
@@ -103,7 +103,7 @@ DATABASE_URL=mongodb+srv://university-admin:Ma5rRWVenevWUT0S@cluster0.qnn0nll.mo
 DEFAULT_USER_PASS=Ma5rRWVenevWUT0S
 ```
 
-$\colorbox{green}{root/src/app.js}$
+`root/src/app.js`
 
 ```
 import express, { Application, Request, Response } from "express";
@@ -121,7 +121,7 @@ app.get("/", (req: Request, res: Response) => {
 export default app;
 ```
 
-$\colorbox{green}{root/src/server.js}$
+`root/src/server.js`
 
 ```
 import mongoose from "mongoose";
@@ -143,8 +143,7 @@ async function connectDB() {
 connectDB();
 ```
 
-$\colorbox{green}{root/src/config/config.ts
-}$
+`root/src/config/config.ts`
 
 ```
 import dotenv from "dotenv";
@@ -212,7 +211,7 @@ yarn add eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin --sav
 
 Next Create a eslint file on the root
 
-$\colorbox{green}{root/.eslintrc}$
+`root/.eslintrc`
 
 ```
 {
@@ -261,7 +260,7 @@ For Example:
 
 Next Create a .eslintignore file
 
-$\colorbox{green}{root/.eslintignore}$
+`root/.eslintignore`
 
 ```
 node_modules
@@ -283,7 +282,7 @@ yarn add -D prettier
 
 Next Create a eslint file on the root
 
-$\colorbox{green}{root/.prettierrc}$
+`root/.prettierrc`
 
 ```
 {
