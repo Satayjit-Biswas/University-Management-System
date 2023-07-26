@@ -1,0 +1,2 @@
+{"level":"info","message":"Database is connected successfully!","service":"user-service"}
+{"level":"info","message":"App Listening on port: http://localhost:5000","service":"user-service"}

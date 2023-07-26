@@ -17,7 +17,7 @@ app.use('/api/v1/users/', usersRouter)
 
 //welcome route
 app.get('/', (req: Request, res: Response) => {
-  res.json('Welcome to Auth Service!')
+  res.json('Welcome to University-Management-System API.........!')
 })
 
 export default app
