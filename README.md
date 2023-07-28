@@ -413,3 +413,35 @@ For Example :
   }
 }
 ```
+
+---
+
+---
+
+## Working To next prosidure...
+
+---
+
+---
+
+# Step 23:
+
+Next SetUp Logger
+
+So Need to Install Winston from npm
+
+```
+yarn add winston
+
+```
+
+# Step 24:
+
+Next SetUp winston-daily-rotate-file
+
+So Need to Install winston-daily-rotate-file
+
+```
+yarn add winston-daily-rotate-file
+
+```
