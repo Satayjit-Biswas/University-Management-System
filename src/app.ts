@@ -1,6 +1,7 @@
 import cors from 'cors'
 import express, { Application, Request, Response } from 'express'
-import usersRouter from './app/modules/users/users.route'
+import { glabalErrorHandler } from './app/middlewares/globalErrorHandler'
+import { UserRouter } from './app/modules/users/user.route'
 
 const app: Application = express()
 
@@ -12,12 +13,19 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
 //Application routes
+app.use('/api/v1/users/', UserRouter)
 
-app.use('/api/v1/users/', usersRouter)
-
-//welcome route
+// //welcome route
 app.get('/', (req: Request, res: Response) => {
-  res.json('Welcome to University-Management-System API.........!')
+  res.json('Welcome to   University-Management-System API.........!')
 })
+
+// Testing
+// app.get('/', async (req: Request, res: Response, next: NextFunction) => {
+//   throw new Error('Testing Error logger')
+// })
+
+//global error handler
+app.use(glabalErrorHandler)
 
 export default app
