@@ -36,7 +36,7 @@ export const glabalErrorHandler: ErrorRequestHandler = (
     errorMessages = simplifiedError?.errorMessages;
   } else if (error instanceof apiError) {
     statusCode = error?.statusCode;
-    message = error.message;
+    message = error?.message;
     errorMessages = error?.message
       ? [
           {

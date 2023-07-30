@@ -8,7 +8,7 @@ const createUser: RequestHandler = async (req, res, next) => {
     res.status(200).json({
       success: true,
       message: 'Successfully Created User',
-      User: result,
+      data: result,
     });
   } catch (error) {
     next(error);

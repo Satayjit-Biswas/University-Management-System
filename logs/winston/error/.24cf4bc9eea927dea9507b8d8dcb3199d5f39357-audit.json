@@ -54,6 +54,11 @@
             "date": 1690671605135,
             "name": "C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\logs\\winston\\error\\UM-2023-07-30-05-Error.log",
             "hash": "c19a4c71e0459e0b46e483d1712e7f568e990bd79cc10ffe815cb55d5f4eacb2"
+        },
+        {
+            "date": 1690714013087,
+            "name": "C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\logs\\winston\\error\\UM-2023-07-30-16-Error.log",
+            "hash": "d8259e042794d2e6e808f71bda767f86089ca74b0f4e980793dd8b9a11617d07"
         }
     ],
     "hashType": "sha256"
