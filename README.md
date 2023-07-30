@@ -432,16 +432,26 @@ So Need to Install Winston from npm
 
 ```
 yarn add winston
-
 ```
 
 # Step 24:
 
 Next SetUp winston-daily-rotate-file
+A transport for winston which logs to a rotating file each day
 
 So Need to Install winston-daily-rotate-file
 
 ```
 yarn add winston-daily-rotate-file
+```
 
+# Step 25:
+
+Next SetUp ZOD.
+Zod is a TypeScript-first schema declaration and validation library.
+
+So Need to Install ZOD
+
+```
+yarn add zod
 ```

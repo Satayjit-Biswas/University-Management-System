@@ -1,7 +1,7 @@
-import path from 'path'
-import { createLogger, format, transports } from 'winston'
-import DailyRotateFile from 'winston-daily-rotate-file'
-const { combine, timestamp, label, printf, prettyPrint } = format
+import path from 'path';
+import { createLogger, format, transports } from 'winston';
+import DailyRotateFile from 'winston-daily-rotate-file';
+const { combine, timestamp, label, printf, prettyPrint } = format;
 
 // logs/winston/
 // success/success.log
@@ -9,13 +9,13 @@ const { combine, timestamp, label, printf, prettyPrint } = format
 
 // Custom log Format
 const myFormat = printf(({ level, message, label, timestamp }) => {
-  const date = new Date(timestamp)
-  const hour = date.getHours()
-  const minutes = date.getMinutes()
-  const seconds = date.getSeconds()
+  const date = new Date(timestamp);
+  const hour = date.getHours();
+  const minutes = date.getMinutes();
+  const seconds = date.getSeconds();
 
-  return `${date.toDateString()} ${hour}:${minutes}:${seconds} [${label}] ${level}: ${message}`
-})
+  return `${date.toDateString()} ${hour}:${minutes}:${seconds} [${label}] ${level}: ${message}`;
+});
 
 export const logger = createLogger({
   level: 'info',
@@ -29,7 +29,7 @@ export const logger = createLogger({
         'logs',
         'winston',
         'success',
-        'UM-%DATE%-Succcess.log'
+        'UM-%DATE%-Success.log'
       ),
       datePattern: 'YYYY-MM-DD-HH',
       zippedArchive: true,
@@ -37,7 +37,7 @@ export const logger = createLogger({
       maxFiles: '14d',
     }),
   ],
-})
+});
 
 export const errorlogger = createLogger({
   level: 'error',
@@ -59,4 +59,4 @@ export const errorlogger = createLogger({
       maxFiles: '14d',
     }),
   ],
-})
+});
