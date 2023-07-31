@@ -583,3 +583,48 @@
   label: 'UM',
   timestamp: '2023-07-30T10:53:34.035Z'
 }
+{
+  service: 'user-service',
+  issues: [
+    {
+      code: 'invalid_type',
+      expected: 'string',
+      received: 'undefined',
+      path: [ 'body', 'role' ],
+      message: 'role is required Now'
+    }
+  ],
+  addIssue: [Function (anonymous)],
+  addIssues: [Function (anonymous)],
+  name: 'ZodError',
+  level: 'error',
+  message: '---GlobalErrorHandler--- [\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "string",\n' +
+    '    "received": "undefined",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "role"\n' +
+    '    ],\n' +
+    '    "message": "role is required Now"\n' +
+    '  }\n' +
+    ']',
+  stack: 'ZodError: [\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "string",\n' +
+    '    "received": "undefined",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "role"\n' +
+    '    ],\n' +
+    '    "message": "role is required Now"\n' +
+    '  }\n' +
+    ']\n' +
+    '    at Object.get error [as error] (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\zod\\lib\\types.js:43:31)\n' +
+    '    at ZodObject.parseAsync (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\zod\\lib\\types.js:164:22)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'UM',
+  timestamp: '2023-07-30T10:53:48.971Z'
+}
