@@ -5,7 +5,7 @@ import {
   acdemicSemesterMonths,
 } from './academicSemester.constant';
 
-const createacAcademicSemesteZodSchema = z.object({
+const createacAcademicSemesterZodSchema = z.object({
   body: z.object({
     title: z.enum([...academicSemesterTitles] as [string, ...string[]], {
       required_error: 'Title is required',
@@ -27,6 +27,6 @@ const createacAcademicSemesteZodSchema = z.object({
 
 // await createUserZodSchema.parseAsync(req)
 
-export const academicSemesteValidation = {
-  createacAcademicSemesteZodSchema,
+export const academicSemesterValidation = {
+  createacAcademicSemesterZodSchema,
 };
