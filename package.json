@@ -35,9 +35,11 @@
     "dotenv": "^16.1.4",
     "express": "^4.18.2",
     "exprss": "^0.0.1-security",
+    "http-status": "^1.6.2",
     "mongoose": "^7.2.2",
     "typescript": "4.5.2",
     "winston": "^3.10.0",
-    "winston-daily-rotate-file": "^4.7.1"
+    "winston-daily-rotate-file": "^4.7.1",
+    "zod": "^3.21.4"
   }
 }

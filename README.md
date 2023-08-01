@@ -1,8 +1,12 @@
 # Getting Started Project with Node js and ts
 
+# University Management System Authentication Service
+
+This is the documentation for the Authentication Service component of the University Management System. The Authentication Service provides authentication and authorization functionalities for the three main roles in the system: Admin, Student, and Faculty. It is built using TypeScript, Express.js, Zod validation, and MongoDB.
+
 ## First Create a Documentation and Analysis Your Project Feature
 
-[Requerment Analysis & Documentation](https://docs.google.com/document/d/1GphXZGrruRQ1Pq3TMG1PAcrX0zNL7l6ymfQLt038tRw/edit)
+[Requerment Analysis & Documentation](https://docs.google.com/document/d/1GNdvX85GGiS0Jh1JmDnbPYvyLtOfYLNeFB9KJ1ZQ5s0/edit?usp=sharing)
 
 ### The documentation will include the following step
 
@@ -23,6 +27,99 @@
 ### Then plan for trucking the project
 
 - [Project Trucking](https://level2project.atlassian.net/jira/software/projects/UM/boards/1/roadmap)
+
+## Functional Requirements
+
+### Student
+
+- Student can login and log out.
+- Student can manage and update their profile.
+- Student can update certain fields.
+
+### Admin
+
+- Admin can log in and log out.
+- Admin can manage and update their profile.
+- Admin can only update certain fields.
+- Admin can manage user accounts:
+  - Change Password
+
+### Faculty
+
+- Faculty can log in and log out.
+- Faculty can manage and update their profile.
+- Faculty can only update certain fields.
+
+## API Endpoints
+
+### User
+
+- `POST /users/create-student`
+- `POST /users/create-faculty`
+- `POST /users/create-admin`
+
+### Student
+
+- `GET /students`
+- `GET /students?searchTerm=fr797`
+- `GET /students?page=1&limit=10&sortBy=gender&sortOrder=asc`
+- `GET /students/:id`
+- `PATCH /students/:id`
+- `DELETE /students/:id`
+
+### Faculty
+
+- `GET /faculties`
+- `GET /faculties?searchTerm=john`
+- `GET /faculties?page=1&limit=10&sortBy=gender&sortOrder=asc`
+- `GET /faculties/:id`
+- `PATCH /faculties/:id`
+- `DELETE /faculties/:id`
+
+### Admin
+
+- `GET /admins`
+- `GET /admins?searchTerm=us88`
+- `GET /admins?page=1&limit=10&sortBy=gender&sortOrder=asc`
+- `GET /admins/:id`
+- `PATCH /admins/:id`
+- `DELETE /admins/:id`
+
+### Academic Semester
+
+- `POST /academic-semesters/create-semester`
+- `GET /academic-semesters`
+- `GET /academic-semesters?searchTerm=fal`
+- `GET /academic-semesters?page=1&limit=10&sortBy=year&sortOrder=asc`
+- `GET /academic-semesters/:id`
+- `PATCH /academic-semesters/:id`
+- `DELETE /academic-semesters/:id`
+
+### Academic Department
+
+- `POST /academic-departments/create-department`
+- `GET /academic-departments`
+- `GET /academic-departments?searchTerm=math`
+- `GET /academic-departments?page=1&limit=10&sortBy=title&sortOrder=asc`
+- `GET /academic-departments/:id`
+- `PATCH /academic-departments/:id`
+- `DELETE /academic-departments/:id`
+
+### Academic Faculty
+
+- `POST /academic-faculties/create-faculty`
+- `GET /academic-faculties`
+- `GET /academic-faculties?searchTerm=com`
+- `GET /academic-faculties?page=1&limit=10&sortBy=title&sortOrder=asc`
+- `GET /academic-faculties/:id`
+- `PATCH /academic-faculties/:id`
+- `DELETE /academic-faculties/:id`
+
+### Authentication
+
+- `POST /auth/login`
+- `POST /auth/change-password`
+- `POST /auth/refresh-token`
 
 ## Getting Started Project Setup with Node js and ts for Backend
 
@@ -432,16 +529,26 @@ So Need to Install Winston from npm
 
 ```
 yarn add winston
-
 ```
 
 # Step 24:
 
 Next SetUp winston-daily-rotate-file
+A transport for winston which logs to a rotating file each day
 
 So Need to Install winston-daily-rotate-file
 
 ```
 yarn add winston-daily-rotate-file
+```
 
+# Step 25:
+
+Next SetUp ZOD.
+Zod is a TypeScript-first schema declaration and validation library.
+
+So Need to Install ZOD
+
+```
+yarn add zod
 ```

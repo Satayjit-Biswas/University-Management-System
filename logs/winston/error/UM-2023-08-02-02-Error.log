@@ -1,0 +1,21 @@
+{
+  statusCode: 409,
+  level: 'error',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-01T20:27:38.692Z'
+}
+{
+  statusCode: 409,
+  level: 'error',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-01T20:29:11.383Z'
+}
+{
+  statusCode: 400,
+  level: 'error',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-01T20:40:56.480Z'
+}
