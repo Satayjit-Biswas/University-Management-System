@@ -1,0 +1,345 @@
+{
+  service: 'user-service',
+  level: 'error',
+  message: "---GlobalErrorHandler--- Can't use $option with String.",
+  stack: "Error: Can't use $option with String.\n" +
+    '    at SchemaString.castForQuery (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\schema\\string.js:679:13)\n' +
+    '    at cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\cast.js:326:39)\n' +
+    '    at cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\cast.js:71:18)\n' +
+    '    at cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\cast.js:71:18)\n' +
+    '    at model.Query.Query.cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:4874:12)\n' +
+    '    at model.Query.Query._castConditions (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:2210:10)\n' +
+    '    at model.Query._find (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:2236:8)\n' +
+    '    at model.Query.exec (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:4404:28)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'UM',
+  timestamp: '2023-08-03T18:32:00.797Z'
+}
+{
+  service: 'user-service',
+  level: 'error',
+  message: "---GlobalErrorHandler--- Can't use $option with String.",
+  stack: "Error: Can't use $option with String.\n" +
+    '    at SchemaString.castForQuery (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\schema\\string.js:679:13)\n' +
+    '    at cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\cast.js:326:39)\n' +
+    '    at cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\cast.js:71:18)\n' +
+    '    at cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\cast.js:71:18)\n' +
+    '    at model.Query.Query.cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:4874:12)\n' +
+    '    at model.Query.Query._castConditions (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:2210:10)\n' +
+    '    at model.Query._find (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:2236:8)\n' +
+    '    at model.Query.exec (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:4404:28)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'UM',
+  timestamp: '2023-08-03T18:32:01.957Z'
+}
+{
+  service: 'user-service',
+  level: 'error',
+  message: "---GlobalErrorHandler--- Can't use $option with String.",
+  stack: "Error: Can't use $option with String.\n" +
+    '    at SchemaString.castForQuery (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\schema\\string.js:679:13)\n' +
+    '    at cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\cast.js:326:39)\n' +
+    '    at cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\cast.js:71:18)\n' +
+    '    at cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\cast.js:71:18)\n' +
+    '    at model.Query.Query.cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:4874:12)\n' +
+    '    at model.Query.Query._castConditions (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:2210:10)\n' +
+    '    at model.Query._find (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:2236:8)\n' +
+    '    at model.Query.exec (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:4404:28)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'UM',
+  timestamp: '2023-08-03T18:32:59.635Z'
+}
+{
+  service: 'user-service',
+  level: 'error',
+  message: "---GlobalErrorHandler--- Can't use $option with String.",
+  stack: "Error: Can't use $option with String.\n" +
+    '    at SchemaString.castForQuery (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\schema\\string.js:679:13)\n' +
+    '    at cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\cast.js:326:39)\n' +
+    '    at cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\cast.js:71:18)\n' +
+    '    at cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\cast.js:71:18)\n' +
+    '    at model.Query.Query.cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:4874:12)\n' +
+    '    at model.Query.Query._castConditions (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:2210:10)\n' +
+    '    at model.Query._find (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:2236:8)\n' +
+    '    at model.Query.exec (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:4404:28)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'UM',
+  timestamp: '2023-08-03T18:33:01.223Z'
+}
+{
+  service: 'user-service',
+  level: 'error',
+  message: "---GlobalErrorHandler--- Can't use $option with String.",
+  stack: "Error: Can't use $option with String.\n" +
+    '    at SchemaString.castForQuery (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\schema\\string.js:679:13)\n' +
+    '    at cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\cast.js:326:39)\n' +
+    '    at cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\cast.js:71:18)\n' +
+    '    at cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\cast.js:71:18)\n' +
+    '    at model.Query.Query.cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:4874:12)\n' +
+    '    at model.Query.Query._castConditions (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:2210:10)\n' +
+    '    at model.Query._find (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:2236:8)\n' +
+    '    at model.Query.exec (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:4404:28)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'UM',
+  timestamp: '2023-08-03T18:33:02.111Z'
+}
+{
+  service: 'user-service',
+  level: 'error',
+  message: "---GlobalErrorHandler--- Can't use $option with String.",
+  stack: "Error: Can't use $option with String.\n" +
+    '    at SchemaString.castForQuery (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\schema\\string.js:679:13)\n' +
+    '    at cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\cast.js:326:39)\n' +
+    '    at cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\cast.js:71:18)\n' +
+    '    at cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\cast.js:71:18)\n' +
+    '    at model.Query.Query.cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:4874:12)\n' +
+    '    at model.Query.Query._castConditions (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:2210:10)\n' +
+    '    at model.Query._find (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:2236:8)\n' +
+    '    at model.Query.exec (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:4404:28)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'UM',
+  timestamp: '2023-08-03T18:34:05.674Z'
+}
+{
+  service: 'user-service',
+  level: 'error',
+  message: "---GlobalErrorHandler--- Can't use $option with String.",
+  stack: "Error: Can't use $option with String.\n" +
+    '    at SchemaString.castForQuery (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\schema\\string.js:679:13)\n' +
+    '    at cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\cast.js:326:39)\n' +
+    '    at cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\cast.js:71:18)\n' +
+    '    at cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\cast.js:71:18)\n' +
+    '    at model.Query.Query.cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:4874:12)\n' +
+    '    at model.Query.Query._castConditions (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:2210:10)\n' +
+    '    at model.Query._find (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:2236:8)\n' +
+    '    at model.Query.exec (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:4404:28)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'UM',
+  timestamp: '2023-08-03T18:34:17.851Z'
+}
+{
+  service: 'user-service',
+  level: 'error',
+  message: "---GlobalErrorHandler--- Can't use $option with String.",
+  stack: "Error: Can't use $option with String.\n" +
+    '    at SchemaString.castForQuery (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\schema\\string.js:679:13)\n' +
+    '    at cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\cast.js:326:39)\n' +
+    '    at cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\cast.js:71:18)\n' +
+    '    at cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\cast.js:71:18)\n' +
+    '    at model.Query.Query.cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:4874:12)\n' +
+    '    at model.Query.Query._castConditions (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:2210:10)\n' +
+    '    at model.Query._find (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:2236:8)\n' +
+    '    at model.Query.exec (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:4404:28)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'UM',
+  timestamp: '2023-08-03T18:34:19.264Z'
+}
+{
+  service: 'user-service',
+  level: 'error',
+  message: "---GlobalErrorHandler--- Can't use $option with String.",
+  stack: "Error: Can't use $option with String.\n" +
+    '    at SchemaString.castForQuery (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\schema\\string.js:679:13)\n' +
+    '    at cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\cast.js:326:39)\n' +
+    '    at cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\cast.js:71:18)\n' +
+    '    at cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\cast.js:71:18)\n' +
+    '    at model.Query.Query.cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:4874:12)\n' +
+    '    at model.Query.Query._castConditions (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:2210:10)\n' +
+    '    at model.Query._find (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:2236:8)\n' +
+    '    at model.Query.exec (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:4404:28)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'UM',
+  timestamp: '2023-08-03T18:34:56.052Z'
+}
+{
+  service: 'user-service',
+  level: 'error',
+  message: "---GlobalErrorHandler--- Can't use $option with String.",
+  stack: "Error: Can't use $option with String.\n" +
+    '    at SchemaString.castForQuery (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\schema\\string.js:679:13)\n' +
+    '    at cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\cast.js:326:39)\n' +
+    '    at cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\cast.js:71:18)\n' +
+    '    at cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\cast.js:71:18)\n' +
+    '    at model.Query.Query.cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:4874:12)\n' +
+    '    at model.Query.Query._castConditions (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:2210:10)\n' +
+    '    at model.Query._find (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:2236:8)\n' +
+    '    at model.Query.exec (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:4404:28)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'UM',
+  timestamp: '2023-08-03T18:34:57.227Z'
+}
+{
+  service: 'user-service',
+  stringValue: '"i"',
+  messageFormat: undefined,
+  kind: 'number',
+  value: 'i',
+  path: 'year',
+  reason: null,
+  valueType: 'string',
+  model: Model { AcademicSemester },
+  level: 'error',
+  message: '---GlobalErrorHandler--- Cast to number failed for value "i" (type string) at path "year" for model "AcademicSemester"',
+  stack: 'CastError: Cast to number failed for value "i" (type string) at path "year" for model "AcademicSemester"\n' +
+    '    at SchemaNumber.castForQuery (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\schema\\number.js:426:13)\n' +
+    '    at cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\cast.js:326:39)\n' +
+    '    at cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\cast.js:71:18)\n' +
+    '    at cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\cast.js:71:18)\n' +
+    '    at model.Query.Query.cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:4874:12)\n' +
+    '    at model.Query.Query._castConditions (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:2210:10)\n' +
+    '    at model.Query._find (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:2236:8)\n' +
+    '    at model.Query.exec (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:4404:28)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'UM',
+  timestamp: '2023-08-03T18:37:10.850Z'
+}
+{
+  service: 'user-service',
+  stringValue: '"3"',
+  messageFormat: undefined,
+  kind: 'number',
+  value: '3',
+  path: 'year',
+  reason: null,
+  valueType: 'string',
+  model: Model { AcademicSemester },
+  level: 'error',
+  message: '---GlobalErrorHandler--- Cast to number failed for value "3" (type string) at path "year" for model "AcademicSemester"',
+  stack: 'CastError: Cast to number failed for value "3" (type string) at path "year" for model "AcademicSemester"\n' +
+    '    at SchemaNumber.castForQuery (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\schema\\number.js:426:13)\n' +
+    '    at cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\cast.js:326:39)\n' +
+    '    at cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\cast.js:71:18)\n' +
+    '    at cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\cast.js:71:18)\n' +
+    '    at model.Query.Query.cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:4874:12)\n' +
+    '    at model.Query.Query._castConditions (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:2210:10)\n' +
+    '    at model.Query._find (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:2236:8)\n' +
+    '    at model.Query.exec (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:4404:28)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'UM',
+  timestamp: '2023-08-03T18:38:06.373Z'
+}
+{
+  service: 'user-service',
+  stringValue: '"3"',
+  messageFormat: undefined,
+  kind: 'number',
+  value: '3',
+  path: 'year',
+  reason: null,
+  valueType: 'string',
+  model: Model { AcademicSemester },
+  level: 'error',
+  message: '---GlobalErrorHandler--- Cast to number failed for value "3" (type string) at path "year" for model "AcademicSemester"',
+  stack: 'CastError: Cast to number failed for value "3" (type string) at path "year" for model "AcademicSemester"\n' +
+    '    at SchemaNumber.castForQuery (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\schema\\number.js:426:13)\n' +
+    '    at cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\cast.js:326:39)\n' +
+    '    at cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\cast.js:71:18)\n' +
+    '    at cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\cast.js:71:18)\n' +
+    '    at model.Query.Query.cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:4874:12)\n' +
+    '    at model.Query.Query._castConditions (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:2210:10)\n' +
+    '    at model.Query._find (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:2236:8)\n' +
+    '    at model.Query.exec (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:4404:28)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'UM',
+  timestamp: '2023-08-03T18:38:07.625Z'
+}
+{
+  service: 'user-service',
+  stringValue: '"3"',
+  messageFormat: undefined,
+  kind: 'number',
+  value: '3',
+  path: 'year',
+  reason: null,
+  valueType: 'string',
+  model: Model { AcademicSemester },
+  level: 'error',
+  message: '---GlobalErrorHandler--- Cast to number failed for value "3" (type string) at path "year" for model "AcademicSemester"',
+  stack: 'CastError: Cast to number failed for value "3" (type string) at path "year" for model "AcademicSemester"\n' +
+    '    at SchemaNumber.castForQuery (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\schema\\number.js:426:13)\n' +
+    '    at cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\cast.js:326:39)\n' +
+    '    at cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\cast.js:71:18)\n' +
+    '    at cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\cast.js:71:18)\n' +
+    '    at model.Query.Query.cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:4874:12)\n' +
+    '    at model.Query.Query._castConditions (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:2210:10)\n' +
+    '    at model.Query._find (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:2236:8)\n' +
+    '    at model.Query.exec (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:4404:28)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'UM',
+  timestamp: '2023-08-03T18:38:08.822Z'
+}
+{
+  service: 'user-service',
+  stringValue: '"i"',
+  messageFormat: undefined,
+  kind: 'number',
+  value: 'i',
+  path: 'year',
+  reason: null,
+  valueType: 'string',
+  model: Model { AcademicSemester },
+  level: 'error',
+  message: '---GlobalErrorHandler--- Cast to number failed for value "i" (type string) at path "year" for model "AcademicSemester"',
+  stack: 'CastError: Cast to number failed for value "i" (type string) at path "year" for model "AcademicSemester"\n' +
+    '    at SchemaNumber.castForQuery (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\schema\\number.js:426:13)\n' +
+    '    at cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\cast.js:326:39)\n' +
+    '    at cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\cast.js:71:18)\n' +
+    '    at cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\cast.js:71:18)\n' +
+    '    at model.Query.Query.cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:4874:12)\n' +
+    '    at model.Query.Query._castConditions (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:2210:10)\n' +
+    '    at model.Query._find (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:2236:8)\n' +
+    '    at model.Query.exec (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:4404:28)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'UM',
+  timestamp: '2023-08-03T18:41:55.358Z'
+}
+{
+  service: 'user-service',
+  stringValue: '"i"',
+  messageFormat: undefined,
+  kind: 'number',
+  value: 'i',
+  path: 'year',
+  reason: null,
+  valueType: 'string',
+  model: Model { AcademicSemester },
+  level: 'error',
+  message: '---GlobalErrorHandler--- Cast to number failed for value "i" (type string) at path "year" for model "AcademicSemester"',
+  stack: 'CastError: Cast to number failed for value "i" (type string) at path "year" for model "AcademicSemester"\n' +
+    '    at SchemaNumber.castForQuery (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\schema\\number.js:426:13)\n' +
+    '    at cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\cast.js:326:39)\n' +
+    '    at cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\cast.js:71:18)\n' +
+    '    at cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\cast.js:71:18)\n' +
+    '    at model.Query.Query.cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:4874:12)\n' +
+    '    at model.Query.Query._castConditions (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:2210:10)\n' +
+    '    at model.Query._find (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:2236:8)\n' +
+    '    at model.Query.exec (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:4404:28)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'UM',
+  timestamp: '2023-08-03T18:41:56.295Z'
+}
+{
+  service: 'user-service',
+  stringValue: '"i"',
+  messageFormat: undefined,
+  kind: 'number',
+  value: 'i',
+  path: 'year',
+  reason: null,
+  valueType: 'string',
+  model: Model { AcademicSemester },
+  level: 'error',
+  message: '---GlobalErrorHandler--- Cast to number failed for value "i" (type string) at path "year" for model "AcademicSemester"',
+  stack: 'CastError: Cast to number failed for value "i" (type string) at path "year" for model "AcademicSemester"\n' +
+    '    at SchemaNumber.castForQuery (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\schema\\number.js:426:13)\n' +
+    '    at cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\cast.js:326:39)\n' +
+    '    at cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\cast.js:71:18)\n' +
+    '    at cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\cast.js:71:18)\n' +
+    '    at model.Query.Query.cast (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:4874:12)\n' +
+    '    at model.Query.Query._castConditions (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:2210:10)\n' +
+    '    at model.Query._find (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:2236:8)\n' +
+    '    at model.Query.exec (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:4404:28)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'UM',
+  timestamp: '2023-08-03T18:41:57.197Z'
+}
