@@ -4,6 +4,7 @@
 //   sortBy: Number(req.query.sortBy),
 //   sortOrder: Number(req.query.sortOrder),
 // };
+// const filters = pick(req.query, ['searchTerm']);
 
 export const pick = <T extends Record<string, unknown>, k extends keyof T>(
   obj: T,
