@@ -149,6 +149,51 @@
             "date": 1691239570695,
             "name": "C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\logs\\winston\\error\\UM-2023-08-05-18-Error.log",
             "hash": "cb41e9cef763db9b0dcbad58d84d75f42752b72771d870eae67486f65f1708ea"
+        },
+        {
+            "date": 1691241563129,
+            "name": "C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\logs\\winston\\error\\UM-2023-08-05-19-Error.log",
+            "hash": "d820dbb30960fedb2adfdafbb56676633e24b6c60e27e9354a8ce9f226d7b097"
+        },
+        {
+            "date": 1691347304985,
+            "name": "C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\logs\\winston\\error\\UM-2023-08-07-00-Error.log",
+            "hash": "5928842e78294b96b59750cd8d96461da7e0ee86b63ab0199fe5229160bf9b01"
+        },
+        {
+            "date": 1691349902650,
+            "name": "C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\logs\\winston\\error\\UM-2023-08-07-01-Error.log",
+            "hash": "93ae48c4a812841a5f43967a46a17d93ad9f705a2378ec5d730a8eb9212fdbaa"
+        },
+        {
+            "date": 1691414741890,
+            "name": "C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\logs\\winston\\error\\UM-2023-08-07-19-Error.log",
+            "hash": "a51be26a22d7d572bbb7b0916abc3dc06c03d5c21f16920f83906124b2766b9a"
+        },
+        {
+            "date": 1691418495841,
+            "name": "C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\logs\\winston\\error\\UM-2023-08-07-20-Error.log",
+            "hash": "2ed3f7fac5673d1ccf619e683451dcd1f5b3256ea02196d6c6cc1df4de7a6af0"
+        },
+        {
+            "date": 1691431175478,
+            "name": "C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\logs\\winston\\error\\UM-2023-08-07-23-Error.log",
+            "hash": "04c6e81d742be0be079aa6ad2957e705514b34122c8d7b15f454a7aed7590a3a"
+        },
+        {
+            "date": 1691431215505,
+            "name": "C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\logs\\winston\\error\\UM-2023-08-08-00-Error.log",
+            "hash": "5f336c7caa02cca52efe200390f8fc601db4c7fe8c44a0efecd5010b216e1fe7"
+        },
+        {
+            "date": 1691613594894,
+            "name": "C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\logs\\winston\\error\\UM-2023-08-10-02-Error.log",
+            "hash": "14adc10fa9d2e4822f911472b25a035d56d175c000b3f4ccae84e3c0d7e0bb36"
+        },
+        {
+            "date": 1691615223781,
+            "name": "C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\logs\\winston\\error\\UM-2023-08-10-03-Error.log",
+            "hash": "932718347067f2a0127124f0ede4fb08208412e43af8f8a0f71e3dc5e087dc1f"
         }
     ],
     "hashType": "sha256"
