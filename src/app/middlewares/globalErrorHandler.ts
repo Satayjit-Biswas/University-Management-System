@@ -1,7 +1,8 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable no-console */
 /* eslint-disable no-unused-expressions */
 
-import { ErrorRequestHandler, Request, Response } from 'express';
+import { ErrorRequestHandler, NextFunction, Request, Response } from 'express';
 import { ZodError } from 'zod';
 import config from '../../config/config';
 import { apiError } from '../../errors/apiErrors';
@@ -14,7 +15,8 @@ import { IGenericErrorMessage } from '../interfaces/error';
 export const glabalErrorHandler: ErrorRequestHandler = (
   error,
   req: Request,
-  res: Response
+  res: Response,
+  next: NextFunction
 ) => {
   config.env === 'development'
     ? console.log('---GlobalErrorHandler---', error)
@@ -32,16 +34,16 @@ export const glabalErrorHandler: ErrorRequestHandler = (
   } else if (error instanceof ZodError) {
     const simplifiedError = handleZodError(error);
     statusCode = simplifiedError.statusCode;
-    message = simplifiedError?.message;
-    errorMessages = simplifiedError?.errorMessages;
+    message = simplifiedError.message;
+    errorMessages = simplifiedError.errorMessages;
   } else if (error?.name === 'CastError') {
     const simplifiedError = handleCastError(error);
     statusCode = simplifiedError.statusCode;
-    message = simplifiedError?.message;
-    errorMessages = simplifiedError?.errorMessages;
+    message = simplifiedError.message;
+    errorMessages = simplifiedError.errorMessages;
   } else if (error instanceof apiError) {
     statusCode = error?.statusCode;
-    message = error?.message;
+    message = error.message;
     errorMessages = error?.message
       ? [
           {
