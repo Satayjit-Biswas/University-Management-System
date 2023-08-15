@@ -111,8 +111,6 @@ const updateStudent = async (
 };
 
 const deleteStudent = async (id: string): Promise<IStudent | null> => {
-  console.log(id);
-
   const result = await Student.findByIdAndDelete(id)
     .populate('academicSemester')
     .populate('academicDepartment')

@@ -6,16 +6,6 @@
     "auditLog": "C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\logs\\winston\\success\\.f0a572c76dacb43d651465835f94d1aec522ff6f-audit.json",
     "files": [
         {
-            "date": 1690894584225,
-            "name": "C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\logs\\winston\\success\\UM-2023-08-01-18-Success.log",
-            "hash": "bdd7976ee7888821d24313025c30f2f1e7abcec8803dd069e9f12d45875bd23e"
-        },
-        {
-            "date": 1690894800274,
-            "name": "C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\logs\\winston\\success\\UM-2023-08-01-19-Success.log",
-            "hash": "a010d41da8538052bf2becf32553dba8e965fb91e91d79aca0c40a40f1a72dba"
-        },
-        {
             "date": 1690921487273,
             "name": "C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\logs\\winston\\success\\UM-2023-08-02-02-Success.log",
             "hash": "3796813a66e9b6507531ad45b18a6a87dad198549f89406827dadbffa4c7c30e"
@@ -159,6 +149,21 @@
             "date": 1692101099959,
             "name": "C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\logs\\winston\\success\\UM-2023-08-15-18-Success.log",
             "hash": "3cbba33b8e9c1a3ab3d00c2251c2d5ee61253531204c7f615889116ded65110c"
+        },
+        {
+            "date": 1692120623138,
+            "name": "C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\logs\\winston\\success\\UM-2023-08-15-23-Success.log",
+            "hash": "eb44c759c862b1f34cb4691fde01bd79be50933c532fefe95c789e59a5e0d990"
+        },
+        {
+            "date": 1692128735941,
+            "name": "C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\logs\\winston\\success\\UM-2023-08-16-01-Success.log",
+            "hash": "15a7a3e22f8a66771dd6952970267747f91e7b1463a9cde0bf80a2485de25786"
+        },
+        {
+            "date": 1692129652689,
+            "name": "C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\logs\\winston\\success\\UM-2023-08-16-02-Success.log",
+            "hash": "5751b882850c52560fc29a8e793f2a7825ecad593fa864fe5bed1e117983a20f"
         }
     ],
     "hashType": "sha256"

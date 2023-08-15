@@ -6,16 +6,6 @@
     "auditLog": "C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\logs\\winston\\error\\.24cf4bc9eea927dea9507b8d8dcb3199d5f39357-audit.json",
     "files": [
         {
-            "date": 1690894584238,
-            "name": "C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\logs\\winston\\error\\UM-2023-08-01-18-Error.log",
-            "hash": "feccd4554dabc11f3426650dcbfab381e88d23d100d6ba6c46bacdacc9c58ccb"
-        },
-        {
-            "date": 1690894848025,
-            "name": "C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\logs\\winston\\error\\UM-2023-08-01-19-Error.log",
-            "hash": "38dc84d614b79885dd17dc90bac05c8d3cb113cc99db095bfaeb99ad8eb3a23b"
-        },
-        {
             "date": 1690921473378,
             "name": "C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\logs\\winston\\error\\UM-2023-08-02-02-Error.log",
             "hash": "99dcfcf160795cd8bdc9d1c21d720a95780701cf9046101337f1009367838839"
@@ -169,6 +159,21 @@
             "date": 1692100863463,
             "name": "C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\logs\\winston\\error\\UM-2023-08-15-18-Error.log",
             "hash": "a0fd9bf5fcafe34678bcc4905cf8f5b391293e0d28dd47665d46c9d42986d791"
+        },
+        {
+            "date": 1692120623147,
+            "name": "C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\logs\\winston\\error\\UM-2023-08-15-23-Error.log",
+            "hash": "5a112fad2171fd83fdc521419250e23eba90cfa85f10b6816b6c25652da03cf2"
+        },
+        {
+            "date": 1692128735954,
+            "name": "C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\logs\\winston\\error\\UM-2023-08-16-01-Error.log",
+            "hash": "6ae9c33244b2a0d86a0d967b2a03d7a02a97a7fbb40c831156f128a55c749e13"
+        },
+        {
+            "date": 1692129652704,
+            "name": "C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\logs\\winston\\error\\UM-2023-08-16-02-Error.log",
+            "hash": "66211c240004d3c2224dd82eb52ad68382e6eb0b808949f57911450ec5e59829"
         }
     ],
     "hashType": "sha256"
