@@ -1,0 +1,493 @@
+{
+  service: 'user-service',
+  issues: [
+    {
+      code: 'invalid_type',
+      expected: 'object',
+      received: 'undefined',
+      path: [ 'body', 'admin' ],
+      message: 'Required'
+    }
+  ],
+  addIssue: [Function (anonymous)],
+  addIssues: [Function (anonymous)],
+  name: 'ZodError',
+  level: 'error',
+  message: '---GlobalErrorHandler--- [\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "object",\n' +
+    '    "received": "undefined",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "admin"\n' +
+    '    ],\n' +
+    '    "message": "Required"\n' +
+    '  }\n' +
+    ']',
+  stack: 'ZodError: [\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "object",\n' +
+    '    "received": "undefined",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "admin"\n' +
+    '    ],\n' +
+    '    "message": "Required"\n' +
+    '  }\n' +
+    ']\n' +
+    '    at Object.get error [as error] (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\zod\\lib\\types.js:43:31)\n' +
+    '    at ZodObject.parseAsync (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\zod\\lib\\types.js:164:22)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'UM',
+  timestamp: '2023-08-16T14:13:14.456Z'
+}
+{
+  service: 'user-service',
+  issues: [
+    {
+      code: 'invalid_type',
+      expected: 'object',
+      received: 'undefined',
+      path: [ 'body', 'admin' ],
+      message: 'Required'
+    }
+  ],
+  addIssue: [Function (anonymous)],
+  addIssues: [Function (anonymous)],
+  name: 'ZodError',
+  level: 'error',
+  message: '---GlobalErrorHandler--- [\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "object",\n' +
+    '    "received": "undefined",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "admin"\n' +
+    '    ],\n' +
+    '    "message": "Required"\n' +
+    '  }\n' +
+    ']',
+  stack: 'ZodError: [\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "object",\n' +
+    '    "received": "undefined",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "admin"\n' +
+    '    ],\n' +
+    '    "message": "Required"\n' +
+    '  }\n' +
+    ']\n' +
+    '    at Object.get error [as error] (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\zod\\lib\\types.js:43:31)\n' +
+    '    at ZodObject.parseAsync (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\zod\\lib\\types.js:164:22)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'UM',
+  timestamp: '2023-08-16T14:13:30.488Z'
+}
+{
+  service: 'user-service',
+  issues: [
+    {
+      code: 'invalid_type',
+      expected: 'string',
+      received: 'undefined',
+      path: [ 'body', 'admin', 'managementDepartment' ],
+      message: 'Management department is required'
+    }
+  ],
+  addIssue: [Function (anonymous)],
+  addIssues: [Function (anonymous)],
+  name: 'ZodError',
+  level: 'error',
+  message: '---GlobalErrorHandler--- [\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "string",\n' +
+    '    "received": "undefined",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "admin",\n' +
+    '      "managementDepartment"\n' +
+    '    ],\n' +
+    '    "message": "Management department is required"\n' +
+    '  }\n' +
+    ']',
+  stack: 'ZodError: [\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "string",\n' +
+    '    "received": "undefined",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "admin",\n' +
+    '      "managementDepartment"\n' +
+    '    ],\n' +
+    '    "message": "Management department is required"\n' +
+    '  }\n' +
+    ']\n' +
+    '    at Object.get error [as error] (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\zod\\lib\\types.js:43:31)\n' +
+    '    at ZodObject.parseAsync (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\zod\\lib\\types.js:164:22)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'UM',
+  timestamp: '2023-08-16T14:14:46.184Z'
+}
+{
+  service: 'user-service',
+  issues: [
+    {
+      code: 'invalid_type',
+      expected: 'string',
+      received: 'undefined',
+      path: [ 'body', 'admin', 'managementDepartment' ],
+      message: 'Management department is required'
+    }
+  ],
+  addIssue: [Function (anonymous)],
+  addIssues: [Function (anonymous)],
+  name: 'ZodError',
+  level: 'error',
+  message: '---GlobalErrorHandler--- [\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "string",\n' +
+    '    "received": "undefined",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "admin",\n' +
+    '      "managementDepartment"\n' +
+    '    ],\n' +
+    '    "message": "Management department is required"\n' +
+    '  }\n' +
+    ']',
+  stack: 'ZodError: [\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "string",\n' +
+    '    "received": "undefined",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "admin",\n' +
+    '      "managementDepartment"\n' +
+    '    ],\n' +
+    '    "message": "Management department is required"\n' +
+    '  }\n' +
+    ']\n' +
+    '    at Object.get error [as error] (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\zod\\lib\\types.js:43:31)\n' +
+    '    at ZodObject.parseAsync (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\zod\\lib\\types.js:164:22)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'UM',
+  timestamp: '2023-08-16T14:15:06.304Z'
+}
+{
+  service: 'user-service',
+  issues: [
+    {
+      code: 'invalid_type',
+      expected: 'string',
+      received: 'undefined',
+      path: [ 'body', 'admin', 'managementDepartment' ],
+      message: 'Management department is required'
+    }
+  ],
+  addIssue: [Function (anonymous)],
+  addIssues: [Function (anonymous)],
+  name: 'ZodError',
+  level: 'error',
+  message: '---GlobalErrorHandler--- [\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "string",\n' +
+    '    "received": "undefined",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "admin",\n' +
+    '      "managementDepartment"\n' +
+    '    ],\n' +
+    '    "message": "Management department is required"\n' +
+    '  }\n' +
+    ']',
+  stack: 'ZodError: [\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "string",\n' +
+    '    "received": "undefined",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "admin",\n' +
+    '      "managementDepartment"\n' +
+    '    ],\n' +
+    '    "message": "Management department is required"\n' +
+    '  }\n' +
+    ']\n' +
+    '    at Object.get error [as error] (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\zod\\lib\\types.js:43:31)\n' +
+    '    at ZodObject.parseAsync (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\zod\\lib\\types.js:164:22)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'UM',
+  timestamp: '2023-08-16T14:15:28.617Z'
+}
+{
+  service: 'user-service',
+  issues: [
+    {
+      code: 'invalid_type',
+      expected: 'string',
+      received: 'undefined',
+      path: [ 'body', 'admin', 'managementDepartment' ],
+      message: 'Management department is required'
+    }
+  ],
+  addIssue: [Function (anonymous)],
+  addIssues: [Function (anonymous)],
+  name: 'ZodError',
+  level: 'error',
+  message: '---GlobalErrorHandler--- [\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "string",\n' +
+    '    "received": "undefined",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "admin",\n' +
+    '      "managementDepartment"\n' +
+    '    ],\n' +
+    '    "message": "Management department is required"\n' +
+    '  }\n' +
+    ']',
+  stack: 'ZodError: [\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "string",\n' +
+    '    "received": "undefined",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "admin",\n' +
+    '      "managementDepartment"\n' +
+    '    ],\n' +
+    '    "message": "Management department is required"\n' +
+    '  }\n' +
+    ']\n' +
+    '    at Object.get error [as error] (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\zod\\lib\\types.js:43:31)\n' +
+    '    at ZodObject.parseAsync (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\zod\\lib\\types.js:164:22)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'UM',
+  timestamp: '2023-08-16T14:17:14.331Z'
+}
+{
+  service: 'user-service',
+  path: 'Admin',
+  level: 'error',
+  message: '---GlobalErrorHandler--- Cannot populate path `Admin` because it is not in your schema. Set the `strictPopulate` option to false to override.',
+  stack: 'StrictPopulateError: Cannot populate path `Admin` because it is not in your schema. Set the `strictPopulate` option to false to override.\n' +
+    '    at getModelsMapForPopulate (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\helpers\\populate\\getModelsMapForPopulate.js:49:12)\n' +
+    '    at populate (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\model.js:4245:21)\n' +
+    '    at _populate (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\model.js:4205:5)\n' +
+    '    at C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\model.js:4177:5\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Function.populate (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\model.js:4176:10)\n' +
+    '    at C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:2485:11\n' +
+    '    at C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:3140:21\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:77:11)',
+  label: 'UM',
+  timestamp: '2023-08-16T14:17:27.616Z'
+}
+{
+  service: 'user-service',
+  index: 0,
+  code: 11000,
+  keyPattern: { email: 1 },
+  keyValue: { email: 'jo6566666@example.com' },
+  level: 'error',
+  message: '---GlobalErrorHandler--- E11000 duplicate key error collection: university-managment-sysem.admins index: email_1 dup key: { email: "jo6566666@example.com" }',
+  stack: 'MongoServerError: E11000 duplicate key error collection: university-managment-sysem.admins index: email_1 dup key: { email: "jo6566666@example.com" }\n' +
+    '    at C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongodb\\src\\operations\\insert.ts:85:25\n' +
+    '    at C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongodb\\src\\cmap\\connection_pool.ts:574:11\n' +
+    '    at C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongodb\\src\\sdam\\server.ts:368:13\n' +
+    '    at handleOperationResult (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongodb\\src\\sdam\\server.ts:502:14)\n' +
+    '    at Connection.onMessage (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongodb\\src\\cmap\\connection.ts:418:5)\n' +
+    '    at MessageStream.<anonymous> (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongodb\\src\\cmap\\connection.ts:243:56)\n' +
+    '    at MessageStream.emit (node:events:513:28)\n' +
+    '    at processIncomingData (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongodb\\src\\cmap\\message_stream.ts:187:12)\n' +
+    '    at MessageStream._write (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongodb\\src\\cmap\\message_stream.ts:68:5)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:392:12)',
+  label: 'UM',
+  timestamp: '2023-08-16T14:17:31.729Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  service: 'user-service',
+  index: 0,
+  code: 11000,
+  keyPattern: { email: 1 },
+  keyValue: { email: 'jo6566666@example.com' },
+  level: 'error',
+  message: '---GlobalErrorHandler--- E11000 duplicate key error collection: university-managment-sysem.admins index: email_1 dup key: { email: "jo6566666@example.com" }',
+  stack: 'MongoServerError: E11000 duplicate key error collection: university-managment-sysem.admins index: email_1 dup key: { email: "jo6566666@example.com" }\n' +
+    '    at C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongodb\\src\\operations\\insert.ts:85:25\n' +
+    '    at C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongodb\\src\\cmap\\connection_pool.ts:574:11\n' +
+    '    at C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongodb\\src\\sdam\\server.ts:368:13\n' +
+    '    at handleOperationResult (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongodb\\src\\sdam\\server.ts:502:14)\n' +
+    '    at Connection.onMessage (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongodb\\src\\cmap\\connection.ts:418:5)\n' +
+    '    at MessageStream.<anonymous> (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongodb\\src\\cmap\\connection.ts:243:56)\n' +
+    '    at MessageStream.emit (node:events:513:28)\n' +
+    '    at processIncomingData (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongodb\\src\\cmap\\message_stream.ts:187:12)\n' +
+    '    at MessageStream._write (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongodb\\src\\cmap\\message_stream.ts:68:5)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:392:12)',
+  label: 'UM',
+  timestamp: '2023-08-16T14:17:35.359Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  service: 'user-service',
+  index: 0,
+  code: 11000,
+  keyPattern: { email: 1 },
+  keyValue: { email: 'jo6566666@example.com' },
+  level: 'error',
+  message: '---GlobalErrorHandler--- E11000 duplicate key error collection: university-managment-sysem.admins index: email_1 dup key: { email: "jo6566666@example.com" }',
+  stack: 'MongoServerError: E11000 duplicate key error collection: university-managment-sysem.admins index: email_1 dup key: { email: "jo6566666@example.com" }\n' +
+    '    at C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongodb\\src\\operations\\insert.ts:85:25\n' +
+    '    at C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongodb\\src\\cmap\\connection_pool.ts:574:11\n' +
+    '    at C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongodb\\src\\sdam\\server.ts:368:13\n' +
+    '    at handleOperationResult (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongodb\\src\\sdam\\server.ts:502:14)\n' +
+    '    at Connection.onMessage (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongodb\\src\\cmap\\connection.ts:418:5)\n' +
+    '    at MessageStream.<anonymous> (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongodb\\src\\cmap\\connection.ts:243:56)\n' +
+    '    at MessageStream.emit (node:events:513:28)\n' +
+    '    at processIncomingData (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongodb\\src\\cmap\\message_stream.ts:187:12)\n' +
+    '    at MessageStream._write (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongodb\\src\\cmap\\message_stream.ts:68:5)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:392:12)',
+  label: 'UM',
+  timestamp: '2023-08-16T14:18:46.059Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  service: 'user-service',
+  index: 0,
+  code: 11000,
+  keyPattern: { contactNo: 1 },
+  keyValue: { contactNo: '1246668907' },
+  level: 'error',
+  message: '---GlobalErrorHandler--- E11000 duplicate key error collection: university-managment-sysem.admins index: contactNo_1 dup key: { contactNo: "1246668907" }',
+  stack: 'MongoServerError: E11000 duplicate key error collection: university-managment-sysem.admins index: contactNo_1 dup key: { contactNo: "1246668907" }\n' +
+    '    at C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongodb\\src\\operations\\insert.ts:85:25\n' +
+    '    at C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongodb\\src\\cmap\\connection_pool.ts:574:11\n' +
+    '    at C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongodb\\src\\sdam\\server.ts:368:13\n' +
+    '    at handleOperationResult (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongodb\\src\\sdam\\server.ts:502:14)\n' +
+    '    at Connection.onMessage (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongodb\\src\\cmap\\connection.ts:418:5)\n' +
+    '    at MessageStream.<anonymous> (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongodb\\src\\cmap\\connection.ts:243:56)\n' +
+    '    at MessageStream.emit (node:events:513:28)\n' +
+    '    at processIncomingData (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongodb\\src\\cmap\\message_stream.ts:187:12)\n' +
+    '    at MessageStream._write (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongodb\\src\\cmap\\message_stream.ts:68:5)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:392:12)',
+  label: 'UM',
+  timestamp: '2023-08-16T14:18:57.737Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  service: 'user-service',
+  path: 'Admin',
+  level: 'error',
+  message: '---GlobalErrorHandler--- Cannot populate path `Admin` because it is not in your schema. Set the `strictPopulate` option to false to override.',
+  stack: 'StrictPopulateError: Cannot populate path `Admin` because it is not in your schema. Set the `strictPopulate` option to false to override.\n' +
+    '    at getModelsMapForPopulate (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\helpers\\populate\\getModelsMapForPopulate.js:49:12)\n' +
+    '    at populate (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\model.js:4245:21)\n' +
+    '    at _populate (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\model.js:4205:5)\n' +
+    '    at C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\model.js:4177:5\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Function.populate (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\model.js:4176:10)\n' +
+    '    at C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:2485:11\n' +
+    '    at C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:3140:21\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:77:11)',
+  label: 'UM',
+  timestamp: '2023-08-16T14:19:09.332Z'
+}
+{
+  service: 'user-service',
+  index: 0,
+  code: 11000,
+  keyPattern: { email: 1 },
+  keyValue: { email: 'jo65dd6@example.com' },
+  level: 'error',
+  message: '---GlobalErrorHandler--- E11000 duplicate key error collection: university-managment-sysem.admins index: email_1 dup key: { email: "jo65dd6@example.com" }',
+  stack: 'MongoServerError: E11000 duplicate key error collection: university-managment-sysem.admins index: email_1 dup key: { email: "jo65dd6@example.com" }\n' +
+    '    at C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongodb\\src\\operations\\insert.ts:85:25\n' +
+    '    at C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongodb\\src\\cmap\\connection_pool.ts:574:11\n' +
+    '    at C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongodb\\src\\sdam\\server.ts:368:13\n' +
+    '    at handleOperationResult (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongodb\\src\\sdam\\server.ts:502:14)\n' +
+    '    at Connection.onMessage (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongodb\\src\\cmap\\connection.ts:418:5)\n' +
+    '    at MessageStream.<anonymous> (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongodb\\src\\cmap\\connection.ts:243:56)\n' +
+    '    at MessageStream.emit (node:events:513:28)\n' +
+    '    at processIncomingData (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongodb\\src\\cmap\\message_stream.ts:187:12)\n' +
+    '    at MessageStream._write (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongodb\\src\\cmap\\message_stream.ts:68:5)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:392:12)',
+  label: 'UM',
+  timestamp: '2023-08-16T14:19:55.706Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  service: 'user-service',
+  index: 0,
+  code: 11000,
+  keyPattern: { contactNo: 1 },
+  keyValue: { contactNo: '12468907' },
+  level: 'error',
+  message: '---GlobalErrorHandler--- E11000 duplicate key error collection: university-managment-sysem.admins index: contactNo_1 dup key: { contactNo: "12468907" }',
+  stack: 'MongoServerError: E11000 duplicate key error collection: university-managment-sysem.admins index: contactNo_1 dup key: { contactNo: "12468907" }\n' +
+    '    at C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongodb\\src\\operations\\insert.ts:85:25\n' +
+    '    at C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongodb\\src\\cmap\\connection_pool.ts:574:11\n' +
+    '    at C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongodb\\src\\sdam\\server.ts:368:13\n' +
+    '    at handleOperationResult (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongodb\\src\\sdam\\server.ts:502:14)\n' +
+    '    at Connection.onMessage (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongodb\\src\\cmap\\connection.ts:418:5)\n' +
+    '    at MessageStream.<anonymous> (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongodb\\src\\cmap\\connection.ts:243:56)\n' +
+    '    at MessageStream.emit (node:events:513:28)\n' +
+    '    at processIncomingData (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongodb\\src\\cmap\\message_stream.ts:187:12)\n' +
+    '    at MessageStream._write (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongodb\\src\\cmap\\message_stream.ts:68:5)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:392:12)',
+  label: 'UM',
+  timestamp: '2023-08-16T14:20:10.439Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  service: 'user-service',
+  index: 0,
+  code: 11000,
+  keyPattern: { email: 1 },
+  keyValue: { email: 'aajo65dd6@example.com' },
+  level: 'error',
+  message: '---GlobalErrorHandler--- E11000 duplicate key error collection: university-managment-sysem.admins index: email_1 dup key: { email: "aajo65dd6@example.com" }',
+  stack: 'MongoServerError: E11000 duplicate key error collection: university-managment-sysem.admins index: email_1 dup key: { email: "aajo65dd6@example.com" }\n' +
+    '    at C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongodb\\src\\operations\\insert.ts:85:25\n' +
+    '    at C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongodb\\src\\cmap\\connection_pool.ts:574:11\n' +
+    '    at C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongodb\\src\\sdam\\server.ts:368:13\n' +
+    '    at handleOperationResult (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongodb\\src\\sdam\\server.ts:502:14)\n' +
+    '    at Connection.onMessage (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongodb\\src\\cmap\\connection.ts:418:5)\n' +
+    '    at MessageStream.<anonymous> (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongodb\\src\\cmap\\connection.ts:243:56)\n' +
+    '    at MessageStream.emit (node:events:513:28)\n' +
+    '    at processIncomingData (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongodb\\src\\cmap\\message_stream.ts:187:12)\n' +
+    '    at MessageStream._write (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongodb\\src\\cmap\\message_stream.ts:68:5)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:392:12)',
+  label: 'UM',
+  timestamp: '2023-08-16T14:24:49.963Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  service: 'user-service',
+  path: 'Admin',
+  level: 'error',
+  message: '---GlobalErrorHandler--- Cannot populate path `Admin` because it is not in your schema. Set the `strictPopulate` option to false to override.',
+  stack: 'StrictPopulateError: Cannot populate path `Admin` because it is not in your schema. Set the `strictPopulate` option to false to override.\n' +
+    '    at getModelsMapForPopulate (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\helpers\\populate\\getModelsMapForPopulate.js:49:12)\n' +
+    '    at populate (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\model.js:4245:21)\n' +
+    '    at _populate (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\model.js:4205:5)\n' +
+    '    at C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\model.js:4177:5\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Function.populate (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\model.js:4176:10)\n' +
+    '    at C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:2485:11\n' +
+    '    at C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\mongoose\\lib\\query.js:3140:21\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:77:11)',
+  label: 'UM',
+  timestamp: '2023-08-16T14:25:47.654Z'
+}
