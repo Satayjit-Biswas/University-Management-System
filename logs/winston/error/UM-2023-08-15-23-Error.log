@@ -1,0 +1,44 @@
+{
+  service: 'user-service',
+  issues: [
+    {
+      validation: 'email',
+      code: 'invalid_string',
+      message: 'Invalid email',
+      path: [ 'body', 'faculty', 'email' ]
+    }
+  ],
+  addIssue: [Function (anonymous)],
+  addIssues: [Function (anonymous)],
+  name: 'ZodError',
+  level: 'error',
+  message: '---GlobalErrorHandler--- [\n' +
+    '  {\n' +
+    '    "validation": "email",\n' +
+    '    "code": "invalid_string",\n' +
+    '    "message": "Invalid email",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "faculty",\n' +
+    '      "email"\n' +
+    '    ]\n' +
+    '  }\n' +
+    ']',
+  stack: 'ZodError: [\n' +
+    '  {\n' +
+    '    "validation": "email",\n' +
+    '    "code": "invalid_string",\n' +
+    '    "message": "Invalid email",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "faculty",\n' +
+    '      "email"\n' +
+    '    ]\n' +
+    '  }\n' +
+    ']\n' +
+    '    at Object.get error [as error] (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\zod\\lib\\types.js:43:31)\n' +
+    '    at ZodObject.parseAsync (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\zod\\lib\\types.js:164:22)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'UM',
+  timestamp: '2023-08-15T17:34:54.667Z'
+}
