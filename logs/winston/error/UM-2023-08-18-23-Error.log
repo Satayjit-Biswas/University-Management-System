@@ -1,0 +1,113 @@
+{
+  service: 'user-service',
+  expose: true,
+  statusCode: 400,
+  status: 400,
+  body: '{\r\n    "id":"q123",\r\n}',
+  type: 'entity.parse.failed',
+  level: 'error',
+  message: '---GlobalErrorHandler--- Unexpected token } in JSON at position 21',
+  stack: 'SyntaxError: Unexpected token } in JSON at position 21\n' +
+    '    at JSON.parse (<anonymous>)\n' +
+    '    at parse (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\body-parser\\lib\\types\\json.js:89:19)\n' +
+    '    at C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\body-parser\\lib\\read.js:128:18\n' +
+    '    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)\n' +
+    '    at invokeCallback (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\raw-body\\index.js:231:16)\n' +
+    '    at done (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\raw-body\\index.js:220:7)\n' +
+    '    at IncomingMessage.onEnd (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\raw-body\\index.js:280:7)\n' +
+    '    at IncomingMessage.emit (node:events:513:28)\n' +
+    '    at endReadableNT (node:internal/streams/readable:1359:12)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:82:21)',
+  label: 'UM',
+  timestamp: '2023-08-18T17:41:09.669Z'
+}
+{
+  service: 'user-service',
+  issues: [
+    {
+      code: 'invalid_type',
+      expected: 'string',
+      received: 'undefined',
+      path: [ 'body', 'password' ],
+      message: 'Password is Required'
+    }
+  ],
+  addIssue: [Function (anonymous)],
+  addIssues: [Function (anonymous)],
+  name: 'ZodError',
+  level: 'error',
+  message: '---GlobalErrorHandler--- [\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "string",\n' +
+    '    "received": "undefined",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "password"\n' +
+    '    ],\n' +
+    '    "message": "Password is Required"\n' +
+    '  }\n' +
+    ']',
+  stack: 'ZodError: [\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "string",\n' +
+    '    "received": "undefined",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "password"\n' +
+    '    ],\n' +
+    '    "message": "Password is Required"\n' +
+    '  }\n' +
+    ']\n' +
+    '    at Object.get error [as error] (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\zod\\lib\\types.js:43:31)\n' +
+    '    at ZodObject.parseAsync (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\zod\\lib\\types.js:164:22)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'UM',
+  timestamp: '2023-08-18T17:41:13.567Z'
+}
+{
+  service: 'user-service',
+  issues: [
+    {
+      code: 'invalid_type',
+      expected: 'string',
+      received: 'undefined',
+      path: [ 'body', 'id' ],
+      message: 'ID is Required'
+    }
+  ],
+  addIssue: [Function (anonymous)],
+  addIssues: [Function (anonymous)],
+  name: 'ZodError',
+  level: 'error',
+  message: '---GlobalErrorHandler--- [\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "string",\n' +
+    '    "received": "undefined",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "id"\n' +
+    '    ],\n' +
+    '    "message": "ID is Required"\n' +
+    '  }\n' +
+    ']',
+  stack: 'ZodError: [\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "string",\n' +
+    '    "received": "undefined",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "id"\n' +
+    '    ],\n' +
+    '    "message": "ID is Required"\n' +
+    '  }\n' +
+    ']\n' +
+    '    at Object.get error [as error] (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\zod\\lib\\types.js:43:31)\n' +
+    '    at ZodObject.parseAsync (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\zod\\lib\\types.js:164:22)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'UM',
+  timestamp: '2023-08-18T17:41:24.841Z'
+}

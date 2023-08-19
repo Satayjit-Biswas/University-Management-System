@@ -562,3 +562,17 @@ yarn add zod
 ---
 
 ---
+
+# Step 26:
+
+Next Auth.
+
+```
+yarn add bcrypt
+```
+
+but ts not support
+
+```
+yarn add @types/bcrypt
+```
