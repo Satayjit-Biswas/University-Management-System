@@ -3,292 +3,348 @@
   level: 'info',
   service: 'user-service',
   label: 'UM',
-  timestamp: '2023-08-05T06:45:10.966Z'
+  timestamp: '2023-08-19T20:00:19.500Z'
 }
 {
   message: 'App Listening on port: http://localhost:5000',
   level: 'info',
   service: 'user-service',
   label: 'UM',
-  timestamp: '2023-08-05T06:45:10.985Z'
+  timestamp: '2023-08-19T20:00:19.531Z'
 }
 {
   message: 'Database is connected successfully!',
   level: 'info',
   service: 'user-service',
   label: 'UM',
-  timestamp: '2023-08-05T06:45:40.668Z'
+  timestamp: '2023-08-19T20:00:32.441Z'
 }
 {
   message: 'App Listening on port: http://localhost:5000',
   level: 'info',
   service: 'user-service',
   label: 'UM',
-  timestamp: '2023-08-05T06:45:40.682Z'
+  timestamp: '2023-08-19T20:00:32.459Z'
 }
 {
   message: 'Database is connected successfully!',
   level: 'info',
   service: 'user-service',
   label: 'UM',
-  timestamp: '2023-08-05T06:45:49.430Z'
+  timestamp: '2023-08-19T20:04:39.647Z'
 }
 {
   message: 'App Listening on port: http://localhost:5000',
   level: 'info',
   service: 'user-service',
   label: 'UM',
-  timestamp: '2023-08-05T06:45:49.453Z'
+  timestamp: '2023-08-19T20:04:39.664Z'
 }
 {
   message: 'Database is connected successfully!',
   level: 'info',
   service: 'user-service',
   label: 'UM',
-  timestamp: '2023-08-05T06:49:25.413Z'
+  timestamp: '2023-08-19T20:04:46.241Z'
 }
 {
   message: 'App Listening on port: http://localhost:5000',
   level: 'info',
   service: 'user-service',
   label: 'UM',
-  timestamp: '2023-08-05T06:49:25.442Z'
+  timestamp: '2023-08-19T20:04:46.254Z'
 }
 {
   message: 'Database is connected successfully!',
   level: 'info',
   service: 'user-service',
   label: 'UM',
-  timestamp: '2023-08-05T06:49:36.088Z'
+  timestamp: '2023-08-19T20:04:53.950Z'
 }
 {
   message: 'App Listening on port: http://localhost:5000',
   level: 'info',
   service: 'user-service',
   label: 'UM',
-  timestamp: '2023-08-05T06:49:36.100Z'
+  timestamp: '2023-08-19T20:04:53.964Z'
 }
 {
   message: 'Database is connected successfully!',
   level: 'info',
   service: 'user-service',
   label: 'UM',
-  timestamp: '2023-08-05T06:49:59.902Z'
+  timestamp: '2023-08-19T20:05:10.057Z'
 }
 {
   message: 'App Listening on port: http://localhost:5000',
   level: 'info',
   service: 'user-service',
   label: 'UM',
-  timestamp: '2023-08-05T06:49:59.917Z'
+  timestamp: '2023-08-19T20:05:10.074Z'
 }
 {
   message: 'Database is connected successfully!',
   level: 'info',
   service: 'user-service',
   label: 'UM',
-  timestamp: '2023-08-05T06:50:04.731Z'
+  timestamp: '2023-08-19T20:06:27.468Z'
 }
 {
   message: 'App Listening on port: http://localhost:5000',
   level: 'info',
   service: 'user-service',
   label: 'UM',
-  timestamp: '2023-08-05T06:50:04.756Z'
+  timestamp: '2023-08-19T20:06:27.486Z'
 }
 {
   message: 'Database is connected successfully!',
   level: 'info',
   service: 'user-service',
   label: 'UM',
-  timestamp: '2023-08-05T06:50:38.096Z'
+  timestamp: '2023-08-19T20:06:32.436Z'
 }
 {
   message: 'App Listening on port: http://localhost:5000',
   level: 'info',
   service: 'user-service',
   label: 'UM',
-  timestamp: '2023-08-05T06:50:38.123Z'
+  timestamp: '2023-08-19T20:06:32.452Z'
 }
 {
   message: 'Database is connected successfully!',
   level: 'info',
   service: 'user-service',
   label: 'UM',
-  timestamp: '2023-08-05T06:50:47.486Z'
+  timestamp: '2023-08-19T20:06:53.478Z'
 }
 {
   message: 'App Listening on port: http://localhost:5000',
   level: 'info',
   service: 'user-service',
   label: 'UM',
-  timestamp: '2023-08-05T06:50:47.504Z'
+  timestamp: '2023-08-19T20:06:53.493Z'
 }
 {
   message: 'Database is connected successfully!',
   level: 'info',
   service: 'user-service',
   label: 'UM',
-  timestamp: '2023-08-05T06:51:04.650Z'
+  timestamp: '2023-08-19T20:10:09.016Z'
 }
 {
   message: 'App Listening on port: http://localhost:5000',
   level: 'info',
   service: 'user-service',
   label: 'UM',
-  timestamp: '2023-08-05T06:51:04.668Z'
+  timestamp: '2023-08-19T20:10:09.031Z'
 }
 {
   message: 'Database is connected successfully!',
   level: 'info',
   service: 'user-service',
   label: 'UM',
-  timestamp: '2023-08-05T06:51:30.292Z'
+  timestamp: '2023-08-19T20:10:14.082Z'
 }
 {
   message: 'App Listening on port: http://localhost:5000',
   level: 'info',
   service: 'user-service',
   label: 'UM',
-  timestamp: '2023-08-05T06:51:30.315Z'
+  timestamp: '2023-08-19T20:10:14.102Z'
 }
 {
   message: 'Database is connected successfully!',
   level: 'info',
   service: 'user-service',
   label: 'UM',
-  timestamp: '2023-08-05T06:51:37.772Z'
+  timestamp: '2023-08-19T20:14:21.517Z'
 }
 {
   message: 'App Listening on port: http://localhost:5000',
   level: 'info',
   service: 'user-service',
   label: 'UM',
-  timestamp: '2023-08-05T06:51:37.785Z'
+  timestamp: '2023-08-19T20:14:21.536Z'
 }
 {
   message: 'Database is connected successfully!',
   level: 'info',
   service: 'user-service',
   label: 'UM',
-  timestamp: '2023-08-05T06:51:42.517Z'
+  timestamp: '2023-08-19T20:14:27.143Z'
 }
 {
   message: 'App Listening on port: http://localhost:5000',
   level: 'info',
   service: 'user-service',
   label: 'UM',
-  timestamp: '2023-08-05T06:51:42.537Z'
+  timestamp: '2023-08-19T20:14:27.181Z'
 }
 {
   message: 'Database is connected successfully!',
   level: 'info',
   service: 'user-service',
   label: 'UM',
-  timestamp: '2023-08-05T06:55:13.252Z'
+  timestamp: '2023-08-19T20:14:56.514Z'
 }
 {
   message: 'App Listening on port: http://localhost:5000',
   level: 'info',
   service: 'user-service',
   label: 'UM',
-  timestamp: '2023-08-05T06:55:13.265Z'
+  timestamp: '2023-08-19T20:14:56.535Z'
 }
 {
   message: 'Database is connected successfully!',
   level: 'info',
   service: 'user-service',
   label: 'UM',
-  timestamp: '2023-08-05T06:55:34.022Z'
+  timestamp: '2023-08-19T20:15:18.738Z'
 }
 {
   message: 'App Listening on port: http://localhost:5000',
   level: 'info',
   service: 'user-service',
   label: 'UM',
-  timestamp: '2023-08-05T06:55:34.049Z'
+  timestamp: '2023-08-19T20:15:18.761Z'
 }
 {
   message: 'Database is connected successfully!',
   level: 'info',
   service: 'user-service',
   label: 'UM',
-  timestamp: '2023-08-05T06:55:45.303Z'
+  timestamp: '2023-08-19T20:15:26.108Z'
 }
 {
   message: 'App Listening on port: http://localhost:5000',
   level: 'info',
   service: 'user-service',
   label: 'UM',
-  timestamp: '2023-08-05T06:55:45.319Z'
+  timestamp: '2023-08-19T20:15:26.138Z'
 }
 {
   message: 'Database is connected successfully!',
   level: 'info',
   service: 'user-service',
   label: 'UM',
-  timestamp: '2023-08-05T06:57:11.895Z'
+  timestamp: '2023-08-19T20:16:56.892Z'
 }
 {
   message: 'App Listening on port: http://localhost:5000',
   level: 'info',
   service: 'user-service',
   label: 'UM',
-  timestamp: '2023-08-05T06:57:11.907Z'
+  timestamp: '2023-08-19T20:16:56.912Z'
 }
 {
   message: 'Database is connected successfully!',
   level: 'info',
   service: 'user-service',
   label: 'UM',
-  timestamp: '2023-08-05T06:57:22.793Z'
+  timestamp: '2023-08-19T20:23:09.497Z'
 }
 {
   message: 'App Listening on port: http://localhost:5000',
   level: 'info',
   service: 'user-service',
   label: 'UM',
-  timestamp: '2023-08-05T06:57:22.811Z'
+  timestamp: '2023-08-19T20:23:09.514Z'
 }
 {
   message: 'Database is connected successfully!',
   level: 'info',
   service: 'user-service',
   label: 'UM',
-  timestamp: '2023-08-05T06:57:28.441Z'
+  timestamp: '2023-08-19T20:23:39.806Z'
 }
 {
   message: 'App Listening on port: http://localhost:5000',
   level: 'info',
   service: 'user-service',
   label: 'UM',
-  timestamp: '2023-08-05T06:57:28.479Z'
+  timestamp: '2023-08-19T20:23:39.828Z'
 }
 {
   message: 'Database is connected successfully!',
   level: 'info',
   service: 'user-service',
   label: 'UM',
-  timestamp: '2023-08-05T06:58:53.422Z'
+  timestamp: '2023-08-19T20:23:56.054Z'
 }
 {
   message: 'App Listening on port: http://localhost:5000',
   level: 'info',
   service: 'user-service',
   label: 'UM',
-  timestamp: '2023-08-05T06:58:53.443Z'
+  timestamp: '2023-08-19T20:23:56.067Z'
 }
 {
   message: 'Database is connected successfully!',
   level: 'info',
   service: 'user-service',
   label: 'UM',
-  timestamp: '2023-08-05T06:59:01.314Z'
+  timestamp: '2023-08-19T20:24:57.132Z'
 }
 {
   message: 'App Listening on port: http://localhost:5000',
   level: 'info',
   service: 'user-service',
   label: 'UM',
-  timestamp: '2023-08-05T06:59:01.341Z'
+  timestamp: '2023-08-19T20:24:57.166Z'
+}
+{
+  message: 'Database is connected successfully!',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-19T20:25:34.334Z'
+}
+{
+  message: 'App Listening on port: http://localhost:5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-19T20:25:34.347Z'
+}
+{
+  message: 'Database is connected successfully!',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-19T20:25:49.307Z'
+}
+{
+  message: 'App Listening on port: http://localhost:5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-19T20:25:49.321Z'
+}
+{
+  message: 'Database is connected successfully!',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-19T20:25:54.099Z'
+}
+{
+  message: 'App Listening on port: http://localhost:5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-19T20:25:54.117Z'
+}
+{
+  message: 'Database is connected successfully!',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-19T20:28:00.410Z'
+}
+{
+  message: 'App Listening on port: http://localhost:5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-19T20:28:00.427Z'
 }
