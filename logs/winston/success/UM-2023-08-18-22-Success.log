@@ -3,12 +3,12 @@
   level: 'info',
   service: 'user-service',
   label: 'UM',
-  timestamp: '2023-08-06T18:41:52.434Z'
+  timestamp: '2023-08-18T16:58:00.923Z'
 }
 {
   message: 'App Listening on port: http://localhost:5000',
   level: 'info',
   service: 'user-service',
   label: 'UM',
-  timestamp: '2023-08-06T18:41:52.453Z'
+  timestamp: '2023-08-18T16:58:00.939Z'
 }
