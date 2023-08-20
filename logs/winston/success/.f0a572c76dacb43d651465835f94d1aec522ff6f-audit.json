@@ -6,16 +6,6 @@
     "auditLog": "C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\logs\\winston\\success\\.f0a572c76dacb43d651465835f94d1aec522ff6f-audit.json",
     "files": [
         {
-            "date": 1691347304968,
-            "name": "C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\logs\\winston\\success\\UM-2023-08-07-00-Success.log",
-            "hash": "388e10fbe65b0609dba3d92b4d6d773d96b85dee64c93df393a318883bea279c"
-        },
-        {
-            "date": 1691350013985,
-            "name": "C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\logs\\winston\\success\\UM-2023-08-07-01-Success.log",
-            "hash": "ca2a8c4f5c85d2cdcd335aeb6ce7900e5d6565cea381928956d275c8d932a1d7"
-        },
-        {
             "date": 1691414741875,
             "name": "C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\logs\\winston\\success\\UM-2023-08-07-19-Success.log",
             "hash": "15cfdcfbb7d90863fdf396bd4ff31c7a1ab9785438bb37ba5398af67379c7690"
@@ -149,6 +139,16 @@
             "date": 1692543736885,
             "name": "C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\logs\\winston\\success\\UM-2023-08-20-21-Success.log",
             "hash": "580bf8cbbf7399677787a4d0416490c6353ea8f3041870feb3858d2ec88cba63"
+        },
+        {
+            "date": 1692547247629,
+            "name": "C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\logs\\winston\\success\\UM-2023-08-20-22-Success.log",
+            "hash": "088526017feffa3f472e7a5032e8af4369eb64ce37d7ac58b3ec3b9c2106b3a1"
+        },
+        {
+            "date": 1692561921348,
+            "name": "C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\logs\\winston\\success\\UM-2023-08-21-02-Success.log",
+            "hash": "c55ac67ba8dfdffa212901e692e41282c634a9012efeed43e013ee3187c5410a"
         }
     ],
     "hashType": "sha256"

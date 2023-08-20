@@ -34,7 +34,7 @@ const loginUser = async (payload: IloginUser): Promise<ILoginUserResponse> => {
 
   if (
     isUserExist.password &&
-    !(await user.isPasswordMatched(password, isUserExist?.password))
+    !(await user.isPasswordMatched(password, isUserExist.password))
   ) {
     throw new apiError(
       httpStatus.UNAUTHORIZED,

@@ -1,0 +1,38 @@
+{
+  service: 'user-service',
+  statusCode: 401,
+  level: 'error',
+  message: '---GlobalErrorHandler--- You are not authorized',
+  stack: 'Error: You are not authorized\n' +
+    '    at C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\src\\app\\middlewares\\auth.ts:15:15\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\src\\app\\middlewares\\auth.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\src\\app\\middlewares\\auth.ts:4:12)\n' +
+    '    at C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\src\\app\\middlewares\\auth.ts:10:61\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\express\\lib\\router\\layer.js:95:5)',
+  label: 'UM',
+  timestamp: '2023-08-20T20:45:12.619Z'
+}
+{
+  service: 'user-service',
+  statusCode: 403,
+  level: 'error',
+  message: '---GlobalErrorHandler--- Forbidden',
+  stack: 'Error: Forbidden\n' +
+    '    at C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\src\\app\\middlewares\\auth.ts:26:15\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\src\\app\\middlewares\\auth.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\src\\app\\middlewares\\auth.ts:4:12)\n' +
+    '    at C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\src\\app\\middlewares\\auth.ts:10:61\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\satay\\Desktop\\level 2\\University-Management-System\\node_modules\\express\\lib\\router\\layer.js:95:5)',
+  label: 'UM',
+  timestamp: '2023-08-20T20:46:02.738Z'
+}
