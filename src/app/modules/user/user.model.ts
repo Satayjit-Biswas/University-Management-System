@@ -1,9 +1,9 @@
 import bcrypt from 'bcrypt';
 import { Schema, model } from 'mongoose';
 import config from '../../../config/config';
-import { IUser, IUserMethods, UserModel } from './user.interface';
+import { IUser, UserModel } from './user.interface';
 
-const userSchema = new Schema<IUser, Record<string, never>, IUserMethods>(
+const userSchema = new Schema<IUser, UserModel>(
   {
     id: {
       type: String,
@@ -22,6 +22,9 @@ const userSchema = new Schema<IUser, Record<string, never>, IUserMethods>(
     needsPasswordChange: {
       type: Boolean,
       default: true,
+    },
+    passwordChangeAt: {
+      type: Date,
     },
     student: {
       type: Schema.Types.ObjectId,
@@ -45,22 +48,49 @@ const userSchema = new Schema<IUser, Record<string, never>, IUserMethods>(
 );
 
 // frist time change password Notification
-userSchema.methods.isUserExist = async function (
+
+// Method 1
+// userSchema.methods.isUserExist = async function (
+//   id: string
+// ): Promise<Partial<IUser> | null> {
+//   return await User.findOne(
+//     { id },
+//     { id: 1, password: 1, role: 1, needsPasswordChange: 1 }
+//   );
+// };
+
+// userSchema.methods.isPasswordMatched = async function (
+//   givenPassword: string,
+//   savedPassword: string
+// ): Promise<boolean> {
+//   return await bcrypt.compare(givenPassword, savedPassword);
+// };
+
+// Method 2
+userSchema.statics.isUserExist = async function (
   id: string
-): Promise<Partial<IUser> | null> {
+): Promise<Pick<
+  IUser,
+  'id' | 'password' | 'role' | 'needsPasswordChange'
+> | null> {
   return await User.findOne(
     { id },
     { id: 1, password: 1, role: 1, needsPasswordChange: 1 }
   );
 };
 
-userSchema.methods.isPasswordMatched = async function (
+userSchema.statics.isPasswordMatched = async function (
   givenPassword: string,
   savedPassword: string
 ): Promise<boolean> {
   return await bcrypt.compare(givenPassword, savedPassword);
 };
 
+// userSchema.methods.changedPasswordAfterJwtIssued = function (
+//   jwtTimestamp: number
+// ) {
+//   console.log({ jwtTimestamp }, 'hi');
+// };
 // hash password after save
 
 userSchema.pre('save', async function (next) {
@@ -70,6 +100,10 @@ userSchema.pre('save', async function (next) {
     this.password,
     Number(config.bycrypt_salt_rounds)
   );
+
+  if (!this.needsPasswordChange) {
+    this.passwordChangeAt = new Date();
+  }
   next();
 });
 

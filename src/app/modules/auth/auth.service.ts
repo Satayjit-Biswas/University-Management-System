@@ -1,10 +1,11 @@
 import httpStatus from 'http-status';
-import { Secret } from 'jsonwebtoken';
+import { JwtPayload, Secret } from 'jsonwebtoken';
 import config from '../../../config/config';
 import { apiError } from '../../../errors/apiErrors';
 import { jwtHelpers } from '../../../helpers/jwtHelpers';
 import { User } from '../user/user.model';
 import {
+  IChangePassword,
   ILoginUserResponse,
   IRefreshTokenResponse,
   IloginUser,
@@ -18,9 +19,7 @@ const loginUser = async (payload: IloginUser): Promise<ILoginUserResponse> => {
   //   { id: 1, password: 1, needsPasswordChange: 1 }
   // ).lean();
 
-  const user = new User();
-
-  const isUserExist = await user.isUserExist(id);
+  const isUserExist = await User.isUserExist(id);
 
   if (!isUserExist) {
     throw new apiError(httpStatus.NOT_FOUND, 'User does not exist...');
@@ -34,7 +33,7 @@ const loginUser = async (payload: IloginUser): Promise<ILoginUserResponse> => {
 
   if (
     isUserExist.password &&
-    !(await user.isPasswordMatched(password, isUserExist.password))
+    !(await User.isPasswordMatched(password, isUserExist.password))
   ) {
     throw new apiError(
       httpStatus.UNAUTHORIZED,
@@ -96,8 +95,7 @@ const refreshToken = async (token: string): Promise<IRefreshTokenResponse> => {
 
   //checking deleted user but refresh token has available
 
-  const user = new User();
-  const isUserExist = await user.isUserExist(userId);
+  const isUserExist = await User.isUserExist(userId);
   if (!isUserExist) {
     throw new apiError(httpStatus.NOT_FOUND, 'User does not exist...');
   }
@@ -114,7 +112,84 @@ const refreshToken = async (token: string): Promise<IRefreshTokenResponse> => {
     accessToken: newAccessToken,
   };
 };
+// Method 1
+// const changePassword = async (
+//   user: JwtPayload | null,
+//   payload: IChangePassword
+// ): Promise<void> => {
+//   const { oldPassword, newPassword } = payload;
+//   // Checking is user exist
+//   const isUserExist = await User.isUserExist(user?.userId);
+
+//   if (!isUserExist) {
+//     throw new apiError(httpStatus.NOT_FOUND, 'User does not exist...');
+//   }
+//   // Checking oldpassword
+//   if (
+//     isUserExist.password &&
+//     !(await User.isPasswordMatched(oldPassword, isUserExist.password))
+//   ) {
+//     throw new apiError(httpStatus.UNAUTHORIZED, 'old Password is incorrect...');
+//   }
+
+//   //hash password before saving
+//   const newHashesPassword = await bcrypt.hash(
+//     newPassword,
+//     Number(config.bycrypt_salt_rounds)
+//   );
+//   const updatedData = {
+//     password: newHashesPassword,
+//     needsPasswordChange: false,
+//     passwordChangeAt: new Date(),
+//   };
+//   // update password
+//   await User.findOneAndUpdate({ id: user?.userId }, updatedData);
+// };
+// Method 2 With instance
+const changePassword = async (
+  user: JwtPayload | null,
+  payload: IChangePassword
+): Promise<void> => {
+  const { oldPassword, newPassword } = payload;
+  // Checking is user exist
+  // const isUserExist = await User.isUserExist(user?.userId);
+
+  const isUserExist = await User.findOne({ id: user?.userId }).select(
+    '+password'
+  );
+
+  if (!isUserExist) {
+    throw new apiError(httpStatus.NOT_FOUND, 'User does not exist...');
+  }
+  // Checking oldpassword
+  if (
+    isUserExist.password &&
+    !(await User.isPasswordMatched(oldPassword, isUserExist.password))
+  ) {
+    throw new apiError(httpStatus.UNAUTHORIZED, 'old Password is incorrect...');
+  }
+
+  // //hash password before saving
+  // const newHashesPassword = await bcrypt.hash(
+  //   newPassword,
+  //   Number(config.bycrypt_salt_rounds)
+  // );
+  // const updatedData = {
+  //   password: newHashesPassword,
+  //   needsPasswordChange: false,
+  //   passwordChangeAt: new Date(),
+  // };
+  // // update password
+  // await User.findOneAndUpdate({ id: user?.userId }, updatedData);
+
+  //updating using save()  method
+  isUserExist.password = newPassword;
+  isUserExist.needsPasswordChange = false;
+  isUserExist.save();
+};
+
 export const AuthService = {
   loginUser,
   refreshToken,
+  changePassword,
 };

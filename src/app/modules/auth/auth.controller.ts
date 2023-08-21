@@ -8,7 +8,6 @@ import { AuthService } from './auth.service';
 
 const loginUser = catchAsync(async (req: Request, res: Response) => {
   const { ...loginData } = req.body;
-  console.log(req.body);
 
   const result = await AuthService.loginUser(loginData);
   const { refreshToken, ...othersData } = result;
@@ -40,4 +39,18 @@ const refreshToken = catchAsync(async (req: Request, res: Response) => {
     data: result,
   });
 });
-export const AuthController = { loginUser, refreshToken };
+
+const changePassword = catchAsync(async (req: Request, res: Response) => {
+  const { ...passwordData } = req.body;
+  const user = req.user;
+
+  const result = await AuthService.changePassword(user, passwordData);
+
+  sendResponse(res, {
+    statusCode: httpStatus.OK,
+    success: true,
+    message: 'Password Change Successfully!',
+    data: result,
+  });
+});
+export const AuthController = { loginUser, refreshToken, changePassword };

@@ -11,6 +11,7 @@ router.post(
   '/create-student',
   validateRequest(UserValidation.createStudentZodSchema),
   auth(ENUM_USER_ROLE.SUPER_ADMIN, ENUM_USER_ROLE.ADMIN),
+
   UserController.createStudent
 );
 router.post(
