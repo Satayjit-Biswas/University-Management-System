@@ -124,3 +124,17 @@
   label: 'UM',
   timestamp: '2023-08-21T14:12:43.961Z'
 }
+{
+  message: 'Database is connected successfully!',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T14:13:08.734Z'
+}
+{
+  message: 'App Listening on port: http://localhost:5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-08-21T14:13:08.782Z'
+}
